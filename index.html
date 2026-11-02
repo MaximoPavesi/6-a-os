@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>6 años juntos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <div class="floating-hearts" aria-hidden="true">
+      <span class="heart h1">❤</span>
+      <span class="heart h2">❤</span>
+      <span class="heart h3">❤</span>
+      <span class="heart h4">❤</span>
+      <span class="heart h5">❤</span>
+      <span class="heart h6">❤</span>
+    </div>
+
+    <div class="sticker-row" aria-label="Stickers favoritos">
+      <div class="sticker dog">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Dachshund_Dog_Breed.jpg" alt="Perro salchicha" />
+        <small>Salchicha</small>
+      </div>
+
+      <div class="sticker lisa">
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png" alt="Lisa Simpson" />
+        <small>Lisa</small>
+      </div>
+
+      <div class="sticker snorky">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/010_Atlantic_bottlenose_dolphin_jumping_at_Pelican_point_Photo_by_Giles_Laurent.jpg" alt="Delfín real" />
+        <small>Snorky</small>
+      </div>
+
+      <div class="sticker kitty">
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Hello_kitty_character_portrait.png" alt="Hello Kitty" />
+        <small>Hello Kitty</small>
+      </div>
+    </div>
+
+    <main class="container" id="loveContent">
+      <header class="hero">
+        <p class="eyebrow">Para mi amor</p>
+        <h1>Todos estos meses juntos</h1>
+        <p class="subtitle">Desde el 2 de noviembre de 2020</p>
+      </header>
+
+      <section class="stats" aria-label="Tiempo juntos">
+        <div class="stat-box">
+          <span id="years">0</span>
+          <small>Años</small>
+        </div>
+        <div class="stat-box">
+          <span id="months">0</span>
+          <small>Meses</small>
+        </div>
+        <div class="stat-box">
+          <span id="days">0</span>
+          <small>Días</small>
+        </div>
+      </section>
+
+      <section class="countdown-card" aria-label="Cuenta regresiva al próximo aniversario mensual">
+        <p class="card-label">Próximo mes juntos</p>
+        <h2 id="anniversaryDate">2 de noviembre de 2026</h2>
+        <div class="timer-grid">
+          <div class="time-box">
+            <span id="countdown-days">00</span>
+            <small>Días</small>
+          </div>
+          <div class="time-box">
+            <span id="countdown-hours">00</span>
+            <small>Horas</small>
+          </div>
+          <div class="time-box">
+            <span id="countdown-minutes">00</span>
+            <small>Minutos</small>
+          </div>
+          <div class="time-box">
+            <span id="countdown-seconds">00</span>
+            <small>Segundos</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="clocks" aria-label="Relojes por zona horaria">
+        <article class="clock-card">
+          <div class="clock-header">
+            <span class="flag">🇪🇸</span>
+            <h3>España</h3>
+          </div>
+          <div id="spain-time" class="clock-time">--:--:--</div>
+          <div id="spain-date" class="clock-date">--</div>
+        </article>
+
+        <article class="clock-card">
+          <div class="clock-header">
+            <span class="flag">🇦🇷</span>
+            <h3>Argentina</h3>
+          </div>
+          <div id="argentina-time" class="clock-time">--:--:--</div>
+          <div id="argentina-date" class="clock-date">--</div>
+        </article>
+      </section>
+
+      <section class="secret-reveal" aria-label="Mensaje secreto">
+        <button id="secretButton" type="button">Descubre mi último mensaje</button>
+        <p id="secretMessage" class="secret-message hidden">
+          Mi amor, 6 años con vos no son solo 6 años: son 6 años de risas, abrazos, conversaciones que me hacen sentir en casa y momentos que hicieron de mi vida algo mucho más hermoso. Gracias por ser la persona que ilumina mis días, la que hace que cada instante se sienta especial y la que convierte lo simple en un recuerdo lleno de amor. Te amo con todo lo que soy, con todo lo que siento y con todo lo que me queda por vivir. Si pudiera elegir otra vez, elegiría exactamente encontrarte, quererte y seguir creciendo a tu lado por siempre. Feliz 6 años, mi amor. 💖
+        </p>
+      </section>
+
+      <footer class="message">Te amo más de lo que las palabras pueden decir ❤️</footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
